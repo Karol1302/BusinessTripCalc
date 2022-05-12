@@ -1,0 +1,20 @@
+﻿<Window x:Class="DelegacjeProjekt.Wstawianie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DelegacjeProjekt"
+        mc:Ignorable="d"
+        Title="Wstawianie" Height="361.898" Width="410.994">
+    <Grid>
+        <TextBlock x:Name ="IDBlock" HorizontalAlignment="Left" Margin="50,69,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name ="TerminBlock" HorizontalAlignment="Left" Margin="50,122,0,0" TextWrapping="Wrap" Text="Termin" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name ="MiejscBlock" HorizontalAlignment="Left" Margin="50,176,0,0" TextWrapping="Wrap" Text="Miejscowość" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name ="TytulBlock"  HorizontalAlignment="Left" Margin="120,20,0,0" TextWrapping="Wrap" Text="Dodawanie delegacji" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name ="IDBox" HorizontalAlignment="Left" Height="23" Margin="165,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name ="TerminBox" HorizontalAlignment="Left" Height="23" Margin="165,125,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name ="MiejscBox" HorizontalAlignment="Left" Height="23" Margin="165,179,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="184"/>
+        <Button x:Name="btnadd" Content="Dodaj" HorizontalAlignment="Left" Margin="120,226,0,0" VerticalAlignment="Top" Width="146" FontSize="16" Click="btnadd_Click"/>
+
+    </Grid>
+</Window>
